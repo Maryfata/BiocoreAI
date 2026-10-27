@@ -1,0 +1,37 @@
+# BIOCORE AI — dependencias para EJECUTAR la app (`streamlit run app/main.py`).
+# Herramientas de desarrollo y paquetes opcionales: requirements-dev.txt.
+# En Windows/PowerShell instala SIEMPRE con el archivo (`pip install -r ...`);
+# si escribes un requisito suelto, ponlo entre comillas: pip install "numpy>=1.23".
+
+# Núcleo numérico / científico
+numpy>=1.23.0
+scipy>=1.10.0
+pandas>=1.5.0
+scikit-learn>=1.3.0
+
+# Datos ECG (PhysioNet MIT-BIH / PTB-XL)
+wfdb>=4.1.1
+
+# Visualización
+matplotlib>=3.7.0
+plotly>=5.10.0
+
+# Interfaz — >=1.50 por width="stretch" (reemplaza use_container_width, retirado)
+streamlit>=1.50.0
+
+# Hardware ESP32/Arduino por puerto serie (hardware/)
+pyserial>=3.5.0
+
+# Narrador clínico (Fase 1.3) — domain/physiology/narrator/
+anthropic>=0.40.0
+
+# Unified Physiological State (Fase 1.1) — SQLite vía SQLAlchemy
+sqlalchemy>=2.0.0
+
+# Exportación de reportes a PDF (app/reporting.py; sin él solo se genera HTML)
+fpdf2>=2.7.0
+
+# Parametrización espectral EEG (Arco 2B, src/signals/eeg/spectral_model.py).
+# Pinned a 1.1.1: versión estable citable (Donoghue et al. 2020, Nature
+# Neuroscience); migrar a specparam es decisión deliberada de un arco futuro.
+fooof==1.1.1
