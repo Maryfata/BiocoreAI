@@ -84,7 +84,7 @@ La aplicación se abre en el navegador (<http://localhost:8501>). Los datos de s
 
 Este proyecto se distribuye bajo una licencia de fuente disponible, no comercial. El código es visible para revisión, estudio y evaluación, pero su uso comercial requiere acuerdo con el titular. Ver [`LICENSE`](LICENSE) para los términos completos.
 
-© 2026 Luis Nazariego Santome y Jose Miguel Fausto Tapia.
+© 2026 Luis Nazariego Santome y Jose Miguel Fausto Tapia( Maryfata).
 
 
 ---
